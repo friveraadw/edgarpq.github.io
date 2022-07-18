@@ -9,14 +9,46 @@ background-size: cover;
 background-position: left;
 }
 
-#card .image-top {
+i {
+    font-size: 3em;
+}
+
+#Proyectos .image-top {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-i {
-    font-size: 3em;
+#Hobbies .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.projects {
+    text-align: center;
+    display: flow-root;
+    padding: 70px;
+}
+
+.carousel {
+    width: 50%;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 10%;
+    height: 83%;
+    object-fit: cover;
+    object-position: left top;
 }
 
