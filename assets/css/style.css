@@ -1,4 +1,7 @@
-
+body {
+    background-color: black;
+    color: white;
+}
 #Hero-Section {
 background-image: url("../imgs/desarrollo-web.png");
 background-repeat: no-repeat;
@@ -6,6 +9,14 @@ background-size: cover;
 background-position: left;
 }
 
+#card .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 i {
     font-size: 3em;
 }
+
