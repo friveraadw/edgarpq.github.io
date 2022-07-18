@@ -1,0 +1,11 @@
+
+#Hero-Section {
+background-image: url("../imgs/desarrollo-web.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left;
+}
+
+i {
+    font-size: 3em;
+}
